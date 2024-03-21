@@ -7,7 +7,10 @@ namespace MyConsoleApp
         static void Main(string[] args)
         {
             MessageWriter MyWriter = new MessageWriter();
-            MyWriter.Writer("HELLO WRITER!");
+            MyWriter.Write("HELLO, WRITER!");
+
+            FiggleWriter FWriter = new FiggleWriter();
+            FWriter.Write("Hello, Figgle!!!");
         }
     }
 }
