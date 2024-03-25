@@ -10,7 +10,7 @@ namespace MyConsoleApp
             MyWriter.Write("HELLO, WRITER!");
 
             FiggleWriter FWriter = new FiggleWriter();
-            FWriter.Write("Hello, Figgle!!!");
+            FWriter.Write("Hello, Figgle!!");
         }
     }
 }
